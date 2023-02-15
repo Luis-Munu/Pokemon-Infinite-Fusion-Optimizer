@@ -1,10 +1,8 @@
-# Pokemon-Infinite-Fusion-Optimizer
+# Pokemon Infinite Fusion Optimizer
 A fusion optimizer created for the game Pokemon Infinite Fusion
 
-The program finds the most performant fusion for your needs, based on stats and typing.
+Program created to simplify the process of finding the best fusion for a role, it lets you weight the stats, filter by name, total base stat and adjust the importance of the typing, both offensively and defensively.
 
-There are several parameters the user can toy with, from filtering pokemon by name and total stats, to boosting certain types both offensively and defensively.
-
-The user can also create profiles and adjust the weights of each stat along with the importance of typing to refine the search.
+You can also give more importance to specific types, rewarding crucial resistances or STABS such as fighting or ground in comparison to others such as bug. :)
 
 Abilities and movesets are currently ignored and there are no plans to introduce them any time soon.
