@@ -1,40 +1,40 @@
 Results for Fast physical attacker: 
-Dugtrio + Kingler: 60.65
-Stats: HP: 41, Attack: 113, Defense: 93, Special Attack: 50, Special Defense: 63, Speed: 90
-Types: Ground, Water
+Diglett + Cleffa: 19.62
+Stats: HP: 23, Attack: 35, Defense: 27, Special Attack: 38, Special Defense: 48, Speed: 41
+Types: Ground, Fairy
 
 Results for Fast special attacker: 
-Persian + Kadabra: 56.85
-Stats: HP: 48, Attack: 58, Defense: 50, Special Attack: 101, Special Defense: 68, Speed: 111
-Types: Psychic, Normal
+Diglett + Kadabra: 50.86
+Stats: HP: 30, Attack: 48, Defense: 26, Special Attack: 91, Special Defense: 61, Speed: 98
+Types: Psychic, Ground
 
 Results for Physical tank: 
-Onix + Quagsire: 50.53
-Stats: HP: 75, Attack: 58, Defense: 135, Special Attack: 53, Special Defense: 58, Speed: 58
-Types: Water, Rock
+Diglett + Onix: 33.74
+Stats: HP: 18, Attack: 48, Defense: 115, Special Attack: 33, Special Defense: 45, Speed: 78
+Types: Ground, Rock
 
 Results for Special tank: 
-Hypno + Noctowl: 42.82
-Stats: HP: 95, Attack: 65, Defense: 63, Special Attack: 75, Special Defense: 102, Speed: 68
-Types: Flying, Psychic
+Diglett + Noctowl: 32.76
+Stats: HP: 70, Attack: 53, Defense: 33, Special Attack: 62, Special Defense: 79, Speed: 86
+Types: Flying, Ground
 
 Results for Hybrid tank: 
-Onix + Noctowl: 42.48
-Stats: HP: 78, Attack: 46, Defense: 123, Special Attack: 60, Special Defense: 79, Speed: 70
-Types: Flying, Rock
+Diglett + Noctowl: 31.56
+Stats: HP: 70, Attack: 53, Defense: 33, Special Attack: 62, Special Defense: 79, Speed: 86
+Types: Flying, Ground
 
 Results for Balanced overall: 
-Kingler + Noctowl: 48.68
-Stats: HP: 85, Attack: 103, Defense: 93, Special Attack: 67, Special Defense: 80, Speed: 73
-Types: Flying, Water
+Diglett + Noctowl: 39.79
+Stats: HP: 70, Attack: 53, Defense: 33, Special Attack: 62, Special Defense: 79, Speed: 86
+Types: Flying, Ground
 
 Results for Physical wallbreaker: 
-Sandslash + Kingler: 58.4
-Stats: HP: 68, Attack: 120, Defense: 113, Special Attack: 46, Special Defense: 53, Speed: 71
+Diglett + Kingler: 48.1
+Stats: HP: 25, Attack: 105, Defense: 85, Special Attack: 40, Special Defense: 46, Speed: 81
 Types: Ground, Water
 
 Results for Special wallbreaker: 
-Mr. Mime + Noctowl: 47.37
-Stats: HP: 80, Attack: 46, Defense: 60, Special Attack: 84, Special Defense: 104, Speed: 83
-Types: Flying, Fairy
+Diglett + Noctowl: 38.75
+Stats: HP: 70, Attack: 53, Defense: 33, Special Attack: 62, Special Defense: 79, Speed: 86
+Types: Flying, Ground
 
