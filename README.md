@@ -8,7 +8,7 @@ Program created to simplify the process of finding the best fusion for a role, i
 
 - **Profiles** - You can create multiple profiles to search for fusions that fulfill a specific role, from physical sweeper to bulky special wall. Profiles are composed of a list of weights that determine the scoring system for the fusion you wish to find, the first list of 6 numbers represent the weight of the Pokemon base stats (HP, Attack, Defense, Special Attack, Special Defense and Speed) and the last two numbers represent the weight of the offensive and defensive typing respectively. The higher the number, the more important that stat is for the fusion you are looking for.
 
-- **Filters** - You can filter the results by name, current progress in the playthrough and total base stat. The name filter is case sensitive and will match any pokemon that contains the string you typed, the progress filter will only show fusions that are currently available in the game and the base stat filter will only show fusions that have a total base stat equal or lower than the number you typed.
+- **Filters** - You can filter the results by name, current progress in the playthrough and total base stat. The name filter is case sensitive and will filter out any pokemon that contains the string you typed, the progress filter will only show fusions that are currently available in the game and the base stat filter will only show fusions that have a total base stat equal or lower than the number you typed.
 
 - **Partner** - You can find the best partner for a pokemon, the program will find the best fusion for the pokemon you typed.
 
