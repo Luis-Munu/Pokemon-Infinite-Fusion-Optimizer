@@ -4,8 +4,6 @@ A fusion optimizer created for the game Pokemon Infinite Fusion
 
 Program created to simplify the process of finding the best fusion for a role, it lets you weight the stats, filter by name, current progress in the playthrough, total base stat, find the best partner for a pokemon and even adjust the importance of the typing, both offensively and defensively.
 
-You can also give more weight to specific types, rewarding crucial resistances or STABS such as fighting or ground in comparison to others such as bug. :)
-
 ### Parameters
 
 - **Profiles** - You can create multiple profiles to search for fusions that fulfill a specific role, from physical sweeper to bulky special wall. Profiles are composed of a list of weights that determine the scoring system for the fusion you wish to find, the first list of 6 numbers represent the weight of the Pokemon base stats (HP, Attack, Defense, Special Attack, Special Defense and Speed) and the last two numbers represent the weight of the offensive and defensive typing respectively. The higher the number, the more important that stat is for the fusion you are looking for.
