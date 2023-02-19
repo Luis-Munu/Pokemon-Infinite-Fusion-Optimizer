@@ -28,6 +28,6 @@ To install them, run the following command:
 pip install -r requirements.txt
 ```
 
-The results are presented on the last cell of the notebook.
+The results are presented on the last cell of the notebook or in the `results.txt` file.
 
 Abilities and movesets are currently ignored and there are no plans to introduce them any time soon.
