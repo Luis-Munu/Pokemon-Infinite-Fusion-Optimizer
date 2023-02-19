@@ -1,0 +1,40 @@
+Results for Fast physical attacker: 
+Dugtrio + Kingler: 60.65
+Stats: HP: 41, Attack: 113, Defense: 93, Special Attack: 50, Special Defense: 63, Speed: 90
+Types: Ground, Water
+
+Results for Fast special attacker: 
+Persian + Kadabra: 56.85
+Stats: HP: 48, Attack: 58, Defense: 50, Special Attack: 101, Special Defense: 68, Speed: 111
+Types: Psychic, Normal
+
+Results for Physical tank: 
+Onix + Quagsire: 50.53
+Stats: HP: 75, Attack: 58, Defense: 135, Special Attack: 53, Special Defense: 58, Speed: 58
+Types: Water, Rock
+
+Results for Special tank: 
+Hypno + Noctowl: 42.82
+Stats: HP: 95, Attack: 65, Defense: 63, Special Attack: 75, Special Defense: 102, Speed: 68
+Types: Flying, Psychic
+
+Results for Hybrid tank: 
+Onix + Noctowl: 42.48
+Stats: HP: 78, Attack: 46, Defense: 123, Special Attack: 60, Special Defense: 79, Speed: 70
+Types: Flying, Rock
+
+Results for Balanced overall: 
+Kingler + Noctowl: 48.68
+Stats: HP: 85, Attack: 103, Defense: 93, Special Attack: 67, Special Defense: 80, Speed: 73
+Types: Flying, Water
+
+Results for Physical wallbreaker: 
+Sandslash + Kingler: 58.4
+Stats: HP: 68, Attack: 120, Defense: 113, Special Attack: 46, Special Defense: 53, Speed: 71
+Types: Ground, Water
+
+Results for Special wallbreaker: 
+Mr. Mime + Noctowl: 47.37
+Stats: HP: 80, Attack: 46, Defense: 60, Special Attack: 84, Special Defense: 104, Speed: 83
+Types: Flying, Fairy
+
