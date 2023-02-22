@@ -1,0 +1,4 @@
+{
+    "exceptions": ["Gyarados", "Steelix", "Dragonite", "Moltres", "Zapdos", "Articuno", "Scyther", "Gengar", "Haunter", "Gastly", "Onix", "Golem", "Graveler", "Geodude", "Charizard", "Venusaur", "Ivysaur", "Bulbasaur"],
+    "swapped": ["Dewgong", "Magnemite", "Magneton", "Magnezone", "Omanyte", "Omastar", "Kabuto", "Kabutops", "Scizor", "Empoleon", "Spiritomb", "Ferrothorn"]
+}

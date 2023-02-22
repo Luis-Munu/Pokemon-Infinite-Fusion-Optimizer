@@ -1,0 +1,82 @@
+Results for Rattata:
+Results for Fast physical attacker: 
+Rattata + Dugtrio: 46.81
+Stats: HP: 33, Attack: 64, Defense: 40, Special Attack: 41, Special Defense: 58, Speed: 88
+Types: Ground, Normal
+
+Results for Fast special attacker: 
+Rattata + Noctowl: 45.14
+Stats: HP: 76, Attack: 54, Defense: 40, Special Attack: 59, Special Defense: 75, Speed: 71
+Types: Flying, Normal
+
+Results for Physical tank: 
+Rattata + Gyarados: 29.87
+Stats: HP: 73, Attack: 79, Defense: 49, Special Attack: 48, Special Defense: 78, Speed: 75
+Types: Water, Normal
+
+Results for Special tank: 
+Rattata + Gyarados: 27.19
+Stats: HP: 73, Attack: 79, Defense: 49, Special Attack: 48, Special Defense: 78, Speed: 75
+Types: Water, Normal
+
+Results for Hybrid tank: 
+Rattata + Gyarados: 26.49
+Stats: HP: 73, Attack: 79, Defense: 49, Special Attack: 48, Special Defense: 78, Speed: 75
+Types: Water, Normal
+
+Results for Balanced overall: 
+Rattata + Gyarados: 35.77
+Stats: HP: 73, Attack: 79, Defense: 49, Special Attack: 48, Special Defense: 78, Speed: 75
+Types: Water, Normal
+
+Results for Physical wallbreaker: 
+Rattata + Gyarados: 36.66
+Stats: HP: 73, Attack: 79, Defense: 49, Special Attack: 48, Special Defense: 78, Speed: 75
+Types: Water, Normal
+
+Results for Special wallbreaker: 
+Rattata + Noctowl: 34.42
+Stats: HP: 76, Attack: 54, Defense: 40, Special Attack: 59, Special Defense: 75, Speed: 71
+Types: Flying, Normal
+
+Results for Mime Jr.:
+Results for Fast physical attacker: 
+Dugtrio + Mime Jr.: 43.84
+Stats: HP: 30, Attack: 43, Defense: 46, Special Attack: 56, Special Defense: 76, Speed: 80
+Types: Ground, Fairy
+
+Results for Fast special attacker: 
+Noctowl + Mime Jr.: 45.97
+Stats: HP: 73, Attack: 33, Defense: 46, Special Attack: 74, Special Defense: 94, Speed: 63
+Types: Flying, Fairy
+
+Results for Physical tank: 
+Gyarados + Mime Jr.: 30.99
+Stats: HP: 70, Attack: 58, Defense: 56, Special Attack: 63, Special Defense: 96, Speed: 67
+Types: Water, Fairy
+
+Results for Special tank: 
+Gyarados + Mime Jr.: 29.15
+Stats: HP: 70, Attack: 58, Defense: 56, Special Attack: 63, Special Defense: 96, Speed: 67
+Types: Water, Fairy
+
+Results for Hybrid tank: 
+Gyarados + Mime Jr.: 28.44
+Stats: HP: 70, Attack: 58, Defense: 56, Special Attack: 63, Special Defense: 96, Speed: 67
+Types: Water, Fairy
+
+Results for Balanced overall: 
+Gyarados + Mime Jr.: 36.03
+Stats: HP: 70, Attack: 58, Defense: 56, Special Attack: 63, Special Defense: 96, Speed: 67
+Types: Water, Fairy
+
+Results for Physical wallbreaker: 
+Gyarados + Mime Jr.: 35.05
+Stats: HP: 70, Attack: 58, Defense: 56, Special Attack: 63, Special Defense: 96, Speed: 67
+Types: Water, Fairy
+
+Results for Special wallbreaker: 
+Noctowl + Mime Jr.: 37.35
+Stats: HP: 73, Attack: 33, Defense: 46, Special Attack: 74, Special Defense: 94, Speed: 63
+Types: Flying, Fairy
+
