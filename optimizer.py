@@ -30,7 +30,8 @@ def calc_best_scores(profile, pairs):
     ], fusion_types.reshape(-1, 2), profile['Offensive Typing'], profile['Defensive Typing'])
 
     fusion_scores = array(fusion_scores).reshape(-1, 2)
-
+    if len(fusion_scores) == 0:
+        return None
     max_index = unravel_index(fusion_scores.argmax(), fusion_scores.shape)
     return (pairs[max_index[0], 0, 0], pairs[max_index[0], 1, 0], fusion_scores[max_index],
             fusion_stats[max_index[0], max_index[1]], fusion_types[max_index[0], max_index[1]])
@@ -68,16 +69,23 @@ def iterate_profiles(pokemon_set, partner=None):
         profile.pop("description")
 
         optimize_boost(profile)
-        results = list(reversed(find_best_fusion(profile, pokemon_set, partner)[-5:]))
-
-        for result in results:
-            lc = f"{result[0]} + {result[1]}: {round(result[2], 2)}\n" + f"Stats: {', '.join(f'{name}: {stat}' for name, stat in zip(stat_names, result[3]))}\n" + f"Types: {', '.join(x.title() for x in result[4])}\n\n"
-            local_result += lc
+        results = find_best_fusion(profile, pokemon_set, partner)
+        if results[0]:
+            results = list(reversed(find_best_fusion(profile, pokemon_set, partner)[-5:]))
+            for result in results:
+                lc = f"{result[0]} + {result[1]}: {round(result[2], 2)}\n" + f"Stats: {', '.join(f'{name}: {stat}' for name, stat in zip(stat_names, result[3]))}\n" + f"Types: {', '.join(x.title() for x in result[4])}\n\n"
+                local_result += lc
+        else:
+            write_msg("No Pokemon found that match your criteria. Please check your filters.")
 
     return local_result
 
 
 def main_loop(pokemon_set):
+    # check if pokemon set is not empty
+    if pokemon_set.empty:
+        write_msg("No Pokemon found that match your criteria. Please check your filters.")
+        return
     res = ""
     partners = settings["Forced Pokemon"] if settings["Force Pokemon in Fusion"] else [None]
     for partner in partners:

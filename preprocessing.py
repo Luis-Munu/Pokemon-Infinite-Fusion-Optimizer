@@ -56,11 +56,12 @@ def add_traded_pokemon(df):
 
 def add_evolutions(df, dfcp):
     obedience_level = min(100, 10 + settings["Medals owned"] * 10)
-    for i in range(len(df)):
-        if df.iloc[i]['Evolution'] not in df['Name'].values:
-            if df.iloc[i]['Min Level'] and type(
-                    df.iloc[i]['Min Level']) == int and df.iloc[i]['Min Level'] < obedience_level:
-                df = df.append(dfcp.loc[dfcp['Name'] == df.iloc[i]['Evolution']])
+    for j in range(2):
+        for i in range(len(df)):
+            if df.iloc[i]['Evolution'] not in df['Name'].values:
+                if df.iloc[i]['Min Level'] and type(
+                        df.iloc[i]['Min Level']) == int and df.iloc[i]['Min Level'] < obedience_level:
+                    df = df.append(dfcp.loc[dfcp['Name'] == df.iloc[i]['Evolution']])
     return df
 
 

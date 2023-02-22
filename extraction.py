@@ -5,9 +5,11 @@ from pandas import DataFrame, merge
 
 from config import type_info
 
+import certifi
+
 
 def extract_table(url, table_class):
-    html = urlopen(url).read()
+    html = urlopen(url, cafile=certifi.where()).read()
     soup = BeautifulSoup(html, 'html.parser')
     table = soup.find('table', {'class': table_class})
 
