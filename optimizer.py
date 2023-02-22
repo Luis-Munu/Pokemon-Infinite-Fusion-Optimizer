@@ -46,8 +46,7 @@ def enforce_pokemon_pair(pairs, pokemon):
 def find_best_fusion(profile, dataset, force_pokemon=None):
     pairs = generate_pokemon_pairs(dataset)
     pairs = enforce_pokemon_pair(pairs, force_pokemon)
-    best_fusion_history = calc_best_scores(profile, pairs)
-    return [best_fusion_history]
+    return [calc_best_scores(profile, pairs)]
 
 
 def optimize_boost(profile):
@@ -65,18 +64,18 @@ def iterate_profiles(pokemon_set, partner=None):
     profiles_cp = deepcopy(profiles)
 
     for profile in profiles_cp:
-        local_result += f"Results for {profile['description']}: \n"
-        profile.pop("description")
-
         optimize_boost(profile)
         results = find_best_fusion(profile, pokemon_set, partner)
         if results[0]:
             results = list(reversed(find_best_fusion(profile, pokemon_set, partner)[-5:]))
+            local_result += f"Results for {profile['description']}: \n"
+            profile.pop("description")
             for result in results:
-                lc = f"{result[0]} + {result[1]}: {round(result[2], 2)}\n" + f"Stats: {', '.join(f'{name}: {stat}' for name, stat in zip(stat_names, result[3]))}\n" + f"Types: {', '.join(x.title() for x in result[4])}\n\n"
+                lc = f"{result[1]} + {result[0]}: {round(result[2], 2)}\n" + f"Stats: {', '.join(f'{name}: {stat}' for name, stat in zip(stat_names, result[3]))}\n" + f"Types: {', '.join(x.title() for x in result[4])}\n\n"
                 local_result += lc
         else:
-            write_msg("No Pokemon found that match your criteria. Please check your filters.")
+            local_result += "No Pokemon found that match your criteria. Please check your filters."
+            break
 
     return local_result
 
