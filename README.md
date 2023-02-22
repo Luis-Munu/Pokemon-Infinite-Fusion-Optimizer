@@ -14,7 +14,15 @@ Program created to simplify the process of finding the best fusion for a role, i
 
 - **Type boosts** - You can give more weight to specific types, rewarding crucial resistances or STABS such as fighting or ground while nerfing others such as bug. You can also balance the importance of physical and special types when searching for a fusion. The latter will be automatically balanced towards the stats you gave more weight to if you don't change the value.
 
-### Usage
+### Usage for normal users
+
+Download the latest release from the [releases page](https://github.com/Valkam-Git/Pokemon-Infinite-Fusion-Optimizer/releases) and extract the contents of the zip file to a folder of your choice.
+
+Run the `Pokemon Infinite Fusion Optimizer.exe` file to generate results in the results folder.
+
+The user can edit the `settings.json` file to change the parameters of the program, the `profiles.csv` file to create new profiles and the `type_info.json` file to change the type boosts.
+
+### Usage for developers
 
 The project has been written in Python 3.10.7 and uses the following libraries:
 
@@ -28,6 +36,9 @@ To install them, run the following command:
 pip install -r requirements.txt
 ```
 
-The results are presented on the last cell of the notebook or in the `results.txt` file.
+### TODO
 
-Abilities and movesets are currently ignored and there are no plans to introduce them any time soon.
+- Dump the game data directly from the game files using a post-game item.
+- Take abilities and moves into account.
+- Create a team planner tool based on pokemon roles.
+- Make a GUI.
