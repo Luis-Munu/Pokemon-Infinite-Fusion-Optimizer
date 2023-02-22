@@ -20,7 +20,7 @@ Download the latest release from the [releases page](https://github.com/Valkam-G
 
 Run the `Pokemon Infinite Fusion Optimizer.exe` file to generate results in the results folder.
 
-The user can edit the `settings.json` file to change the parameters of the program, the `profiles.csv` file to create new profiles and the `type_info.json` file to change the type boosts.
+The user can edit the `settings.json` file to change the parameters of the program, the `profiles.json` file to create new profiles and the `type_info.json` file to change the type boosts.
 
 ### Usage for developers
 

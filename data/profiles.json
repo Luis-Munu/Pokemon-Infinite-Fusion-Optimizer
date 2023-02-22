@@ -2,8 +2,5 @@
      { "description": "Fast special attacker", "HP": 1, "Attack": 1, "Defense": 1, "Special Attack": 10, "Special Defense": 1, "Speed": 10, "Offensive Typing": 0.6, "Defensive Typing": 0.01    },    
      { "description": "Physical tank", "HP": 8, "Attack": 2, "Defense": 8, "Special Attack": 1, "Special Defense": 4, "Speed": 1, "Offensive Typing": 0.01, "Defensive Typing": 0.45    },    
      { "description": "Special tank", "HP": 8, "Attack": 1, "Defense": 4, "Special Attack": 2, "Special Defense": 8, "Speed": 1, "Offensive Typing": 0.01, "Defensive Typing": 0.55    },    
-     { "description": "Hybrid tank", "HP": 7, "Attack": 1, "Defense": 6, "Special Attack": 2, "Special Defense": 7, "Speed": 1, "Offensive Typing": 0.01, "Defensive Typing": 0.55    },    
-     { "description": "Balanced overall", "HP": 3, "Attack": 5, "Defense": 3, "Special Attack": 6, "Special Defense": 3, "Speed": 4, "Offensive Typing": 0.3, "Defensive Typing": 0.25    },    
-     { "description": "Physical wallbreaker", "HP": 5, "Attack": 9, "Defense": 6, "Special Attack": 1, "Special Defense": 2, "Speed": 1, "Offensive Typing": 0.3, "Defensive Typing": 0.25    },    
-     { "description": "Special wallbreaker", "HP": 5, "Attack": 1, "Defense": 2, "Special Attack": 9, "Special Defense": 6, "Speed": 1, "Offensive Typing": 0.25, "Defensive Typing": 0.3    }
+     { "description": "Hybrid tank", "HP": 7, "Attack": 1, "Defense": 6, "Special Attack": 2, "Special Defense": 7, "Speed": 1, "Offensive Typing": 0.01, "Defensive Typing": 0.55    }
 ]

@@ -2,9 +2,9 @@
     "Filter Pokemon by name": true,
     "Filter Pokemon by medals": true,
     "Filter Pokemon by max stats": false,
-    "Force Pokemon in Fusion": true,
+    "Force Pokemon in Fusion": false,
     "Filtered names": ["Deoxys", "Blissey", "Shuckle", "Chansey", "Latios", "Latias", "Darkrai", "Wobbuffet", "Ninjask", "Ferrothorn"],
-    "Medals owned": 2,
+    "Medals owned": 8,
     "Maximum base stats": 900,
     "Forced Pokemon": ["Mime Jr.", "Gardevoir"]
 }

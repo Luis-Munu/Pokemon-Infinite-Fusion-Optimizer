@@ -2,9 +2,13 @@ from numpy import array, nan, stack, str_, sum
 
 from config import type_info
 
+# used to cache the results of the get_defensive_score, the keys are the two types
+cached_def_scores = {}
+cached_off_scores = {}
 
-def calculate_multiplier(type, value, split=0):
-    split_b = type_info["physical_boost"] if split == 0 else type_info["special_boost"]
+
+def calculate_multiplier(type, value):
+    split_b = type_info["physical_boost"] if type in type_info["physical_types"] else type_info["special_boost"]
     if type in type_info["boosted_types"]:
         return value * type_info["boost"] * split_b
     elif type in type_info["nerfed_types"]:
@@ -12,22 +16,22 @@ def calculate_multiplier(type, value, split=0):
     return value * split_b
 
 
-def get_defensive_score(type1, type2):
-    types = [type1, int(type2)] if not type(type2) == str_ else [type1]
-    score = 0
-    for attacking_type, value in type_info["type_chart"].items():
-        local_scores = [
-            0 if type(value[defending_type]) == float or abs(value[defending_type]) < 2 else value[defending_type]
-            for defending_type in types
-        ]
-        if 4 in local_scores or -4 in local_scores:
-            score += 4
-        elif not (sum(local_scores) == 0):
-            score += -sum([
-                calculate_multiplier(attacking_type, score, 0)
-                if attacking_type in type_info["physical_types"] else calculate_multiplier(attacking_type, score, 1)
-                for score in local_scores
-            ])
+def get_defensive_score(type1, type2=None):
+    types = [type1]
+    if type(type2) != str_:
+        types.append(type2)
+    if (type1, type2) in cached_def_scores:
+        return cached_def_scores[(type1, type2)]
+    else:
+        score = 0
+        for attack_type, values in type_info["type_chart_def"].items():
+            local_scores = [values[defend_type] for defend_type in types if defend_type in values]
+            if 4 in local_scores:
+                score += 4
+            elif local_scores:
+                score += sum(calculate_multiplier(attack_type, value) for value in local_scores)
+    # store them in the cache
+    cached_def_scores[(type1, type2)] = score
     return score
 
 
@@ -35,11 +39,15 @@ def get_offensive_score(type1, type2):
 
     def eval_type(offensive_type):
         return sum([
-            calculate_multiplier(defending_type, value) if type(value) != str_ and value != 0 else -4
+            calculate_multiplier(defending_type, value)
             for defending_type, value in type_info["type_chart"][offensive_type].items()
         ])
 
-    return eval_type(type1) + eval_type(type2) if type(type2) != str_ else eval_type(type1)
+    if (type1, type2) in cached_off_scores:
+        return cached_off_scores[(type1, type2)]
+    score = eval_type(type1) + eval_type(type2) if type(type2) != str_ else eval_type(type1)
+    cached_off_scores[(type1, type2)] = score
+    return score
 
 
 def determine_fusion_types(types1, types2):
