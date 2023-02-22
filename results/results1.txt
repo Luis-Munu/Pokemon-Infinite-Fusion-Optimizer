@@ -1,82 +1,52 @@
-Results for Rattata:
+Results for Gengar:
 Results for Fast physical attacker: 
-Rattata + Dugtrio: 46.81
-Stats: HP: 33, Attack: 64, Defense: 40, Special Attack: 41, Special Defense: 58, Speed: 88
-Types: Ground, Normal
+Garchomp + Gengar: 60.48
+Stats: HP: 76, Attack: 108, Defense: 83, Special Attack: 113, Special Defense: 78, Speed: 104
+Types: Ghost, Ground
 
 Results for Fast special attacker: 
-Rattata + Noctowl: 45.14
-Stats: HP: 76, Attack: 54, Defense: 40, Special Attack: 59, Special Defense: 75, Speed: 71
-Types: Flying, Normal
+Vaporeon + Gengar: 52.34
+Stats: HP: 106, Attack: 65, Defense: 60, Special Attack: 116, Special Defense: 88, Speed: 95
+Types: Water, Ghost
 
 Results for Physical tank: 
-Rattata + Gyarados: 29.87
-Stats: HP: 73, Attack: 79, Defense: 49, Special Attack: 48, Special Defense: 78, Speed: 75
-Types: Water, Normal
+Steelix + Gengar: 49.06
+Stats: HP: 65, Attack: 78, Defense: 153, Special Attack: 105, Special Defense: 71, Speed: 56
+Types: Ghost, Steel
 
 Results for Special tank: 
-Rattata + Gyarados: 27.19
-Stats: HP: 73, Attack: 79, Defense: 49, Special Attack: 48, Special Defense: 78, Speed: 75
-Types: Water, Normal
+Snorlax + Gengar: 43.44
+Stats: HP: 126, Attack: 80, Defense: 61, Special Attack: 86, Special Defense: 98, Speed: 83
+Types: Normal, Ghost
 
 Results for Hybrid tank: 
-Rattata + Gyarados: 26.49
-Stats: HP: 73, Attack: 79, Defense: 49, Special Attack: 48, Special Defense: 78, Speed: 75
-Types: Water, Normal
+Aegislash + Gengar: 42.92
+Stats: HP: 60, Attack: 60, Defense: 90, Special Attack: 76, Special Defense: 125, Speed: 93
+Types: Steel, Ghost
 
-Results for Balanced overall: 
-Rattata + Gyarados: 35.77
-Stats: HP: 73, Attack: 79, Defense: 49, Special Attack: 48, Special Defense: 78, Speed: 75
-Types: Water, Normal
-
-Results for Physical wallbreaker: 
-Rattata + Gyarados: 36.66
-Stats: HP: 73, Attack: 79, Defense: 49, Special Attack: 48, Special Defense: 78, Speed: 75
-Types: Water, Normal
-
-Results for Special wallbreaker: 
-Rattata + Noctowl: 34.42
-Stats: HP: 76, Attack: 54, Defense: 40, Special Attack: 59, Special Defense: 75, Speed: 71
-Types: Flying, Normal
-
-Results for Mime Jr.:
+Results for Gardevoir:
 Results for Fast physical attacker: 
-Dugtrio + Mime Jr.: 43.84
-Stats: HP: 30, Attack: 43, Defense: 46, Special Attack: 56, Special Defense: 76, Speed: 80
-Types: Ground, Fairy
+Garchomp + Gardevoir: 57.84
+Stats: HP: 81, Attack: 108, Defense: 85, Special Attack: 110, Special Defense: 105, Speed: 94
+Types: Psychic, Ground
 
 Results for Fast special attacker: 
-Noctowl + Mime Jr.: 45.97
-Stats: HP: 73, Attack: 33, Defense: 46, Special Attack: 74, Special Defense: 94, Speed: 63
-Types: Flying, Fairy
+Gardevoir + Vaporeon: 51.03
+Stats: HP: 109, Attack: 65, Defense: 63, Special Attack: 115, Special Defense: 101, Speed: 75
+Types: Water, Fairy
 
 Results for Physical tank: 
-Gyarados + Mime Jr.: 30.99
-Stats: HP: 70, Attack: 58, Defense: 56, Special Attack: 63, Special Defense: 96, Speed: 67
-Types: Water, Fairy
+Gardevoir + Steelix: 49.49
+Stats: HP: 70, Attack: 78, Defense: 155, Special Attack: 101, Special Defense: 98, Speed: 46
+Types: Psychic, Steel
 
 Results for Special tank: 
-Gyarados + Mime Jr.: 29.15
-Stats: HP: 70, Attack: 58, Defense: 56, Special Attack: 63, Special Defense: 96, Speed: 67
-Types: Water, Fairy
+Gardevoir + Snorlax: 45.41
+Stats: HP: 129, Attack: 80, Defense: 65, Special Attack: 85, Special Defense: 111, Speed: 63
+Types: Normal, Fairy
 
 Results for Hybrid tank: 
-Gyarados + Mime Jr.: 28.44
-Stats: HP: 70, Attack: 58, Defense: 56, Special Attack: 63, Special Defense: 96, Speed: 67
-Types: Water, Fairy
-
-Results for Balanced overall: 
-Gyarados + Mime Jr.: 36.03
-Stats: HP: 70, Attack: 58, Defense: 56, Special Attack: 63, Special Defense: 96, Speed: 67
-Types: Water, Fairy
-
-Results for Physical wallbreaker: 
-Gyarados + Mime Jr.: 35.05
-Stats: HP: 70, Attack: 58, Defense: 56, Special Attack: 63, Special Defense: 96, Speed: 67
-Types: Water, Fairy
-
-Results for Special wallbreaker: 
-Noctowl + Mime Jr.: 37.35
-Stats: HP: 73, Attack: 33, Defense: 46, Special Attack: 74, Special Defense: 94, Speed: 63
-Types: Flying, Fairy
+Aegislash + Gardevoir: 44.55
+Stats: HP: 62, Attack: 60, Defense: 93, Special Attack: 75, Special Defense: 138, Speed: 73
+Types: Steel, Fairy
 

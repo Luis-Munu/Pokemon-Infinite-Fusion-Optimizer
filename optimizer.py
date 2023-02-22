@@ -83,7 +83,7 @@ def iterate_profiles(pokemon_set, partner=None):
 def main_loop(pokemon_set):
     # check if pokemon set is not empty
     if pokemon_set.empty:
-        write_msg("No Pokemon found that match your criteria. Please check your filters.")
+        write_msg("No Pokemon found that match your criteria. Please check your filters.\n")
         return
     res = ""
     partners = settings["Forced Pokemon"] if settings["Force Pokemon in Fusion"] else [None]
