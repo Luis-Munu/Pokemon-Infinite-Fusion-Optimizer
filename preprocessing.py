@@ -68,13 +68,15 @@ def add_evolutions(df, dfcp):
     evo_items = read_evo_items()
     obedience_level = min(100, 10 + settings["Medals owned"] * 10)
     for j in range(2):
-        for i in range(len(df)):
+        i = 0
+        while i < len(df):
             if df.iloc[i]['Evolution'] not in df['Name'].values:
                 if df.iloc[i]['Min Level'] and type(
                         df.iloc[i]['Min Level']) == int and df.iloc[i]['Min Level'] < obedience_level:
                     df = df.append(dfcp.loc[dfcp['Name'] == df.iloc[i]['Evolution']])
                 elif df.iloc[i]['Item'] and df.iloc[i]['Item'] in evo_items:
                     df = df.append(dfcp.loc[dfcp['Name'] == df.iloc[i]['Evolution']])
+            i += 1
     return df
 
 

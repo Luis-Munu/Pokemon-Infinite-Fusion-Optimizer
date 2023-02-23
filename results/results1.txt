@@ -1,28 +1,28 @@
-Results for Gengar:
+Results for Alakazam:
 Results for Fast physical attacker: 
-Garchomp + Gengar: 60.48
-Stats: HP: 76, Attack: 108, Defense: 83, Special Attack: 113, Special Defense: 78, Speed: 104
-Types: Ghost, Ground
+Garchomp + Alakazam: 57.71
+Stats: HP: 72, Attack: 103, Defense: 78, Special Attack: 116, Special Defense: 91, Speed: 108
+Types: Psychic, Ground
 
 Results for Fast special attacker: 
-Vaporeon + Gengar: 52.34
-Stats: HP: 106, Attack: 65, Defense: 60, Special Attack: 116, Special Defense: 88, Speed: 95
-Types: Water, Ghost
+Vaporeon + Alakazam: 52.86
+Stats: HP: 105, Attack: 55, Defense: 50, Special Attack: 118, Special Defense: 95, Speed: 101
+Types: Water, Psychic
 
 Results for Physical tank: 
-Steelix + Gengar: 49.06
-Stats: HP: 65, Attack: 78, Defense: 153, Special Attack: 105, Special Defense: 71, Speed: 56
-Types: Ghost, Steel
+Steelix + Alakazam: 46.25
+Stats: HP: 61, Attack: 73, Defense: 148, Special Attack: 108, Special Defense: 85, Speed: 60
+Types: Psychic, Steel
 
 Results for Special tank: 
-Snorlax + Gengar: 43.44
-Stats: HP: 126, Attack: 80, Defense: 61, Special Attack: 86, Special Defense: 98, Speed: 83
-Types: Normal, Ghost
+Snorlax + Alakazam: 43.58
+Stats: HP: 125, Attack: 70, Defense: 51, Special Attack: 88, Special Defense: 105, Speed: 90
+Types: Normal, Psychic
 
 Results for Hybrid tank: 
-Aegislash + Gengar: 42.92
-Stats: HP: 60, Attack: 60, Defense: 90, Special Attack: 76, Special Defense: 125, Speed: 93
-Types: Steel, Ghost
+Aegislash + Alakazam: 42.42
+Stats: HP: 58, Attack: 50, Defense: 80, Special Attack: 78, Special Defense: 131, Speed: 100
+Types: Steel, Psychic
 
 Results for Gardevoir:
 Results for Fast physical attacker: 

@@ -74,7 +74,7 @@ def iterate_profiles(pokemon_set, partner=None):
                 lc = f"{result[1]} + {result[0]}: {round(result[2], 2)}\n" + f"Stats: {', '.join(f'{name}: {stat}' for name, stat in zip(stat_names, result[3]))}\n" + f"Types: {', '.join(x.title() for x in result[4])}\n\n"
                 local_result += lc
         else:
-            local_result += "No Pokemon found that match your criteria. Please check your filters."
+            local_result += "No Pokemon found that match your criteria. Please check your filters.\n"
             break
 
     return local_result
