@@ -11,14 +11,15 @@ import certifi
 def extract_table(url, table_class):
     html = urlopen(url, cafile=certifi.where()).read()
     soup = BeautifulSoup(html, 'html.parser')
-    table = soup.find('table', {'class': table_class})
+    tables = soup.find_all("table", class_=table_class)
 
     data = []
-    for row in table.find_all('tr'):
-        row_data = []
-        for cell in row.find_all('td'):
-            row_data.append(cell.text.strip())
-        data.append(row_data)
+    for table in tables:
+        for row in table.find_all('tr'):
+            row_data = []
+            for cell in row.find_all('td'):
+                row_data.append(cell.text.strip())
+            if row_data: data.append(row_data)
     return DataFrame([row for row in data if row != []])
 
 
